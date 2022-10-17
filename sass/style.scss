@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #040634;
+}
+
+header {
+    position: sticky !important;
+    top: 0px;
+    z-index: 100;
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+
+    .navbar-brand {
+        font-family: 'Comfortaa', cursive;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        background: linear-gradient(to right, #fa17e3, #34fdba);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .navbar-nav {
+        li>a {
+            font-weight: 500;
+            margin: 0px 10px;
+            text-align: center;
+            font-size: 1.18rem;
+            color: white !important;
+
+            &:hover {
+                color: deepskyblue !important;
+            }
+        }
+    }
+}
+
+.content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: rgba(255, 255, 255, 0.874);
+        font-weight: 600;
+        font-size: 3rem;
+
+        span {
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(19, 227, 255);
+            // text-shadow: 0px 0px 4px rgb(4, 113, 114);
+        }
+    }
+}
+
+.main_section {
+    background: #040634;
+    // height: 100vh;
+    padding: 40px 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+        background: #0f31ba;
+        color: #0bfcb4f4;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+        margin: 15px;
+
+        .card-title {
+            font-size: 1.6rem;
+            transition: all 0.3s ease;
+        }
+
+        .card-text {
+            color: #ffffffdb;
+            font-weight: 300;
+            transition: all 0.3s ease;
+        }
+
+        transition: all 0.3s ease;
+
+
+        &:hover {
+            transition: all 0.3s ease;
+            transform: translateY(-10px);
+            // background: linear-gradient(to bottom, #031e8a,#0C27E0);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+            .card-title {
+                transition: all 0.3s ease;
+                color: white;
+            }
+
+            .card-text {
+                transition: all 0.3s ease;
+                color: #fffffffb;
+            }
+
+        }
+    }
+}
+
+.cpp_content {
+    padding: 30px 1%;
+
+    h1 {
+        margin-top: 50px;
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .card {
+        background: #0f31ba;
+       
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+        margin: 15px;
+
+        .card-title {
+            color: white;
+            font-size: 1.6rem;
+            transition: all 0.3s ease;
+        }
+
+        .card-text {
+            color: #ffffffdb;
+            font-weight: 300;
+            transition: all 0.3s ease;
+        }
+
+        transition: all 0.3s ease;
+
+
+        &:hover {
+            transition: all 0.3s ease;
+            transform: translateY(-10px);
+            // background: linear-gradient(to bottom, #031e8a,#0C27E0);
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+            .card-title {
+                transition: all 0.3s ease;
+                color: white;
+            }
+
+            .card-text {
+                transition: all 0.3s ease;
+                color: #fffffffb;
+            }
+
+        }
+    }
+
+
+}
