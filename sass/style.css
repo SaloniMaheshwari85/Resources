@@ -44,6 +44,11 @@ header {
   color: deepskyblue !important;
 }
 
+#resources {
+  position: absolute;
+  margin-top: -100px;
+}
+
 .content {
   height: 90vh;
   display: flex;
