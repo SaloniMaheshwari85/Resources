@@ -144,4 +144,49 @@ header {
 .cpp_content .card:hover .card-text {
   transition: all 0.3s ease;
   color: rgba(255, 255, 255, 0.9843137255);
+}
+
+.about {
+  height: 350px;
+}
+.about .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about hr {
+  color: white;
+  width: 80%;
+  margin: auto;
+  height: 2px;
+}
+.about .heading {
+  text-align: center;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+.about .card {
+  background: #0f31ba;
+  margin: 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all 0.3s ease;
+}
+.about .card .card-title {
+  color: white;
+  font-size: 1.6rem;
+  transition: all 0.3s ease;
+}
+.about .card .te {
+  color: rgb(225, 225, 225);
+  font-weight: 100;
+}
+.about .card:hover {
+  transition: all 0.3s ease;
+  transform: translateY(-10px);
+}
+.about .card:hover .card-title {
+  color: #010101;
 }/*# sourceMappingURL=style.css.map */
